@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Briarmead | Contact</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/BM Favicon.png" type="image/png">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Briarmead</div>
+        <nav>
+            <ul class="navbar">
+                <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <section class="contact">
+
+            <h2>Contact Form</h2>
+            <form id="contact-form" action="https://formsubmit.co/your@email.com" method="POST">
+                <input type="text" name="name" required placeholder="Name">
+                <input type="email" name="email" required placeholder="Email">
+                <input type="hidden" name="_subject" value="New message from Briarmead contact form">
+                <input type="text" name="_honey" style="display:none">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                <button type="submit">Send</button>
+                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+            
+            </form>
+           
+        </section>
+
+
+        <section class="contact-details">
+            <h2>Contact Details</h2>
+            <div class="details">
+                <div class="nameLabel detailRight">Name:</div>
+                <div class="name detailLeft">Craig Davison</div>
+                <div class="addressLabel detailRight">Address:</div>
+                <div class="address detailLeft">123 Address line 1 <br> Address Line 2 <br> Post Code</div>
+                <div class="emailLabel detailRight">Email:</div>
+                <div class="email detailLeft">cdav@briarmead.com</div>
+                <div class="phoneLabel detailRight">Landline/mobile:</div>
+                <div class="phone detailLeft">01234 567 890 /<br> 07123 123456</div>
+            </div>
+
+            <h4>Map</h4>
+            <!-- Small map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146943.78890156286!2d-1.9303328195876865!3d54.86786902489606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487dd4020dd1aabf%3A0x41120712a27519a5!2s12%20Villa%20Real%20Estate%2C%20Consett%20DH8%206BJ!5e0!3m2!1sen!2suk!4v1635842067233!5m2!1sen!2suk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <!-- Large map -->
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146943.78890156286!2d-1.9303328195876865!3d54.86786902489606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487dd4020dd1aabf%3A0x41120712a27519a5!2s12%20Villa%20Real%20Estate%2C%20Consett%20DH8%206BJ!5e0!3m2!1sen!2suk!4v1635842067233!5m2!1sen!2suk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+        </section>
+
+    </main>
+    
+
+    <footer>
+        <ul>
+            <li><a href="#">Copyright information</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Tel/Email</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
