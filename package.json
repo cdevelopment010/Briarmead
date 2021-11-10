@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "normalize-scss": "^7.0.1",
+    "sass": "^1.43.4",
+    "scss": "^0.2.4"
+  },
+  "name": "briarmead",
+  "description": "Development for Briarmead architecture website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch ./scss  -o ./css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdevelopment010/Briarmead.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdevelopment010/Briarmead/issues"
+  },
+  "homepage": "https://github.com/cdevelopment010/Briarmead#readme"
+}
