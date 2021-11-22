@@ -49,36 +49,59 @@
 
            <div class="container">
                <div class="image-item-parent">
-                   <div class="image-item-child img1"></div>
+                   <!-- <div class="image-item-child img1" onclick="myFunction(this);"></div> -->
+                   <img src="../assets/live140960_07proposedelevations_1.jpg" alt="" onclick="myFunction(this);">
                    <div class="desc">
                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, aspernatur.
                    </div>
                </div>
                <div class="image-item-parent">
-                    <div class="image-item-child img2"></div>
+                    <!-- <div class="image-item-child img2" onclick="myFunction(this);"></div> -->
+                   <img src="../assets/live140960_newdwellingatdurhamfloorplan_1.jpg" alt="" onclick="myFunction(this);">
                     <div class="desc">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, aspernatur.
                     </div>
                 </div>
                 <div class="image-item-parent">
-                    <div class="image-item-child img3"></div>
+                    <!-- <div class="image-item-child img3" onclick="myFunction(this);"></div> -->
+                   <img src="../assets/live140960_newdwellingatwoolsington.jpg" alt="" onclick="myFunction(this);">
                     <div class="desc">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, aspernatur.
                     </div>
                 </div>
                 <div class="image-item-parent">
-                    <div class="image-item-child img4"></div>
+                    <!-- <div class="image-item-child img4" onclick="myFunction(this);"></div> -->
+                   <img src="../assets/live140960_p1010596_1.jpg" alt="" onclick="myFunction(this);">
                     <div class="desc">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, aspernatur.
                     </div>
                 </div>
                 <div class="image-item-parent">
-                    <div class="image-item-child img5"></div>
+                    <!-- <div class="image-item-child img5" onclick="myFunction(this);"></div> -->
+                   <img src="../assets/live140960_p1010609_1.jpg" alt="" onclick="myFunction(this);">
                     <div class="desc">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, aspernatur.
                     </div>
                 </div>
            </div>
+
+
+           <!-- The expanding image container -->
+            <div class="popoutImage">
+                <!-- Close the image -->
+                <span onclick="" class="closebtn" id="closeBtn">&times;</span>
+            
+                <!-- Expanded image -->
+                <img id="expandedImg">
+            
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div>
+
+            <!-- Background overlay  -->
+            <div class="overlay" id="overlay">
+
+            </div>
          
         </section>
 
@@ -99,5 +122,8 @@
             <strong>Telephone: </strong> 01207 505705 / 07793 651234
         </p>
     </footer>
+
+
+    <script src="../index.js"></script>
 </body>
 </html>
